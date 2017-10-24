@@ -1,0 +1,19 @@
+body {
+  background-color: #000;
+}
+
+h2 {
+  color: #fff;
+}
+
+
+.list-group-item {
+  color: #fff;
+  background-color: #282828;
+  height: 50px;
+}
+
+.list-group-item:hover {
+  color: #282828;
+  background-color: #fff;
+}
