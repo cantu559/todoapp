@@ -25,4 +25,3 @@ function newElement() {
     }
   }
 }
-Try it Yourself »

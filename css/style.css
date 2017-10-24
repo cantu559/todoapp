@@ -17,3 +17,9 @@ h2 {
   color: #282828;
   background-color: #fff;
 }
+
+ul li.checked {
+    background: #fff;
+    color: #fff;
+    text-decoration: line-through;
+}
