@@ -26,15 +26,11 @@ ul li {
   padding: 10px 15px;
   margin-bottom: -1px;
   border: 1px solid #ddd;
+  cursor: pointer;
 }
 
-.list-group-item:hover {
-  color: #282828;
-  background-color: #fff;
-}
+
 
 ul li.checked {
-    background: #fff;
-    color: #fff;
     text-decoration: line-through;
 }
