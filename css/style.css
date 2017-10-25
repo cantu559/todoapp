@@ -11,6 +11,21 @@ h2 {
   color: #fff;
   background-color: #282828;
   height: 50px;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border: 1px solid #ddd;
+}
+ul li {
+  color: #fff;
+  background-color: #282828;
+  height: 50px;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border: 1px solid #ddd;
 }
 
 .list-group-item:hover {
