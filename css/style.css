@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+
+
 body {
   background-color: #000;
 }
@@ -33,4 +38,11 @@ ul li {
 
 ul li.checked {
     text-decoration: line-through;
+}
+.quote{
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 25px;
 }
