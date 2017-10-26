@@ -38,6 +38,7 @@ ul li {
 
 ul li.checked {
     text-decoration: line-through;
+    color: #028200;
 }
 .quote{
   text-align: center;
@@ -45,4 +46,12 @@ ul li.checked {
   margin-top: 50px;
   color: #fff;
   font-size: 25px;
+}
+
+.addBtn {
+  color: #fff;
+}
+
+.close {
+  color: #fff;
 }

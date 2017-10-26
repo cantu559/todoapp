@@ -52,3 +52,14 @@ function newElement() {
     }
   }
 }
+
+//random quote on page refersh
+
+var myQuotes = newArray();
+myQuotes[0] = "own the day";
+myQuotes[1] = "keep working";
+myQuotes[2] = "do what you love";
+myQuotes[3] = "keep doing you";
+
+var myRandom = Math.floor(Math.random()*myQuotes.length);
+$('#row #myQuote').html(myQuote[myRandom]);
