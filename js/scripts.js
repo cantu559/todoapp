@@ -3,7 +3,7 @@ var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var txt = document.createTextNode("\u00D7"); //Interesting approach! -RJH
   span.className = "close";
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
@@ -33,7 +33,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("You must write something!");//Good use of edge casing!
   } else {
     document.getElementById("unorderedList").appendChild(li);
   }
@@ -60,6 +60,6 @@ myQuotes[0] = "own the day";
 myQuotes[1] = "keep working";
 myQuotes[2] = "do what you love";
 myQuotes[3] = "keep doing you";
-
+//^^^nice! I like the personalization! and good use of Math.random!
 var myRandom = Math.floor(Math.random()*myQuotes.length);
 $('#row #myQuote').html(myQuote[myRandom]);
